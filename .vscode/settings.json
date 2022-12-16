@@ -1,0 +1,6 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "cSpell.words": ["Nuxt"],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
