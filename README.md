@@ -13,9 +13,9 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Features
 
-- [x] 💨 [@nuxtjs/tailwindcss](https://www.npmjs.com/package/@nuxtjs/tailwindcss)
-- [x] ✨ [Headless UI](https://headlessui.dev/)
-- [x] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/) with [pinia-plugin-persistedstate](https://www.npmjs.com/package/pinia-plugin-persistedstate)
+- [x] [@nuxtjs/tailwindcss](https://www.npmjs.com/package/@nuxtjs/tailwindcss)
+- [x] [State & Store Management (Pinia)](https://pinia.vuejs.org/) with [pinia-plugin-persistedstate](https://www.npmjs.com/package/pinia-plugin-persistedstate)
+- [x] [@intlify/nuxt3](https://github.com/intlify/nuxt3) and store in pinia-persist
 - [x] error page & error layout
 
 ## Setup
