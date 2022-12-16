@@ -1,23 +1,26 @@
 # nuxt3-template
 The template is for nuxt3
 
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+> **NOTES** 
+> - This Project using "yarn" as package manager.
+> - Nuxt 3 now in stable version
 
-Make sure to install the dependencies:
+## Features
+- [x] 💨 [@nuxtjs/tailwindcss](https://www.npmjs.com/package/@nuxtjs/tailwindcss)
+- [x] ✨ [Headless UI](https://headlessui.dev/)
+- [x] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/) with [pinia-plugin-persistedstate](https://www.npmjs.com/package/pinia-plugin-persistedstate)
+- [x]    error page & error layout
+
+## Setup
 
 ```bash
 # yarn
 yarn install
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
 ## Development Server
