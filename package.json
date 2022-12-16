@@ -18,6 +18,8 @@
     "tailwindcss": "^3.2.4"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.4.6"
+    "@nuxt/kit": "^3.0.0",
+    "@pinia/nuxt": "^0.4.6",
+    "pinia-plugin-persistedstate": "^3.0.1"
   }
 }
