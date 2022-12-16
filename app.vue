@@ -1,10 +1,12 @@
 <template>
-  <div class="p-0 m-0">
-    <h1 class="text-2xl text-center cursor-pointer">
-      {{ templateText }}
-    </h1>
-    <NuxtWelcome />
-  </div>
+  <h1 class="text-2xl text-center cursor-pointer">
+    {{ templateText }}
+  </h1>
+  <NuxtLayout>
+    <main>
+      <NuxtPage />
+    </main>
+  </NuxtLayout>
 </template>
 <script setup lang="ts">
 import store from '@/store/index';
