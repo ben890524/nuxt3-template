@@ -3,7 +3,8 @@ import en from './locales/en/index';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [['@pinia/nuxt', { disableVuex: true }], '@nuxtjs/tailwindcss', '@intlify/nuxt3'],
+  modules: [['@pinia/nuxt', { disableVuex: true }],
+  '@pinia-plugin-persistedstate/nuxt', '@nuxtjs/tailwindcss', '@intlify/nuxt3'],
   tailwindcss: {
     configPath: '~/tailwind.config.js',
     cssPath: '@/assets/styles/tailwind/index.scss',

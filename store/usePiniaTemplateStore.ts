@@ -13,7 +13,7 @@ export const usePiniaTemplateStore = defineStore(
   },
   {
     persist: {
-      storage: process.client ? localStorage : undefined,
+      storage: process.client ? persistedState.localStorage : undefined,
     },
   }
 );
