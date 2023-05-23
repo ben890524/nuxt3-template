@@ -21,6 +21,7 @@
     "@pinia/nuxt": "^0.4.11",
     "@vee-validate/nuxt": "^4.9.5",
     "@vee-validate/rules": "^4.9.5",
+    "@vueuse/nuxt": "^10.1.2",
     "ant-design-vue": "4.0.0-rc.3",
     "eslint": "^8.41.0",
     "eslint-plugin-vue": "^9.14.0",
