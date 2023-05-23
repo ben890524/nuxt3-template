@@ -18,6 +18,7 @@ module.exports = {
   rules: {
     'no-undef': 'off',
     'comma-dangle': 'off',
+    camelcase: 'off',
     semi: 'off',
     /** vue eslint definition */
     /** 元件命名要多個字元。

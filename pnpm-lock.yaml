@@ -7,6 +7,12 @@ dependencies:
   '@pinia/nuxt':
     specifier: ^0.4.11
     version: 0.4.11(vue@3.3.4)
+  '@vee-validate/nuxt':
+    specifier: ^4.9.5
+    version: 4.9.5(vue@3.3.4)
+  '@vee-validate/rules':
+    specifier: ^4.9.5
+    version: 4.9.5(vue@3.3.4)
   ant-design-vue:
     specifier: 4.0.0-rc.3
     version: 4.0.0-rc.3(vue@3.3.4)
@@ -1397,6 +1403,26 @@ packages:
       unhead: 1.1.27
       vue: 3.3.4
     dev: true
+
+  /@vee-validate/nuxt@4.9.5(vue@3.3.4):
+    resolution: {integrity: sha512-W+2nXe1NXc5ijUp7sSAYv3bGsfhHGjf2m1oTP2bm81cV7/kpokqVenEvwgnInBwRD/Eh7hGjbchUcpnKlPBRkQ==}
+    dependencies:
+      '@nuxt/kit': 3.5.1
+      local-pkg: 0.4.3
+      vee-validate: 4.9.5(vue@3.3.4)
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+      - vue
+    dev: false
+
+  /@vee-validate/rules@4.9.5(vue@3.3.4):
+    resolution: {integrity: sha512-HtBIfSQtesRyidW6dPvFI5jMZmmZAbsbliwbAIBPhjzXoeFInUXj5is1F9mjTA+C/PSAwiOUFb6g0yY2mxi+pA==}
+    dependencies:
+      vee-validate: 4.9.5(vue@3.3.4)
+    transitivePeerDependencies:
+      - vue
+    dev: false
 
   /@vercel/nft@0.22.6:
     resolution: {integrity: sha512-gTsFnnT4mGxodr4AUlW3/urY+8JKKB452LwF3m477RFUJTAaDmcz2JqFuInzvdybYIeyIv1sSONEJxsxnbQ5JQ==}
@@ -6652,6 +6678,11 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
+  /type-fest@3.11.0:
+    resolution: {integrity: sha512-JaPw5U9ixP0XcpUbQoVSbxSDcK/K4nww20C3kjm9yE6cDRRhptU28AH60VWf9ltXmCrIfIbtt9J+2OUk2Uqiaw==}
+    engines: {node: '>=14.16'}
+    dev: false
+
   /type-is@1.6.18:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==}
     engines: {node: '>= 0.6'}
@@ -6868,6 +6899,16 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
     dev: true
+
+  /vee-validate@4.9.5(vue@3.3.4):
+    resolution: {integrity: sha512-BVhGHjD6lWdEltDg08+wN/oTtSEDJcpwpgb5IJVvTmzEU0Dunn3j/JwVfbM+WSLCj4SMxnfar59qLnDLyZpQWg==}
+    peerDependencies:
+      vue: ^3.3.0
+    dependencies:
+      '@vue/devtools-api': 6.5.0
+      type-fest: 3.11.0
+      vue: 3.3.4
+    dev: false
 
   /vite-node@0.31.1(@types/node@18.0.0)(sass@1.62.1):
     resolution: {integrity: sha512-BajE/IsNQ6JyizPzu9zRgHrBwczkAs0erQf/JRpgTIESpKvNj9/Gd0vxX905klLkb0I0SJVCKbdrl5c6FnqYKA==}
