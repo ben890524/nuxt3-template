@@ -12,4 +12,8 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  /** 停用tailwindcss的reset.css，目前未停用，因為干擾的不多，如果未來需要，打開即可，Ant Design Vue也有reset.css */
+  corePlugins: {
+    preflight: false,
+  },
 };
